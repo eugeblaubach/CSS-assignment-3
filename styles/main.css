@@ -116,16 +116,25 @@ aside a:hover {
 /* put your media queries below */
 
 @media (max-width: 730px) {
-  article { margin: 0;
-            width: 100%;
+      article {
+        margin: 0;
+        width: 100%;
+      }
 
-          }
-  aside {
-          width: 100%;
-          margin: 0;
-        }
+      aside {
+        width: 100%;
+        margin: 0;
+      }
 
-  #container { margin: 0; }
-  #top-image-container { display: none; }
-  #sidebar2 { margin: 0; }
+      #container {
+        margin: 0;
+      }
+
+      #top-image-container {
+        display: none;
+      }
+
+      #sidebar2 {
+        margin: 0;
+      }
 }
